@@ -1,0 +1,602 @@
+﻿[
+    {
+        "file": "img_00.png",
+        "nome": "acacia",
+        "colorazione": "17",
+        "verosomiglianza": "4"
+    },
+    {
+        "file": "img_01.png",
+        "nome": "alder",
+        "colorazione": "92",
+        "verosomiglianza": "4"
+    },
+    {
+        "file": "img_02.png",
+        "nome": "almond",
+        "colorazione": "02",
+        "verosomiglianza": "4"
+    },
+    {
+        "file": "img_03.png",
+        "nome": "amaryllis",
+        "colorazione": "54",
+        "verosomiglianza": "1"
+    },
+    {
+        "file": "img_04.png",
+        "nome": "anemone",
+        "colorazione": "58",
+        "verosomiglianza": "1"
+    },
+    {
+        "file": "img_05.png",
+        "nome": "anise",
+        "colorazione": "14",
+        "verosomiglianza": "3"
+    },
+    {
+        "file": "img_06.png",
+        "nome": "azalea",
+        "colorazione": "72",
+        "verosomiglianza": "1"
+    },
+    {
+        "file": "img_07.png",
+        "nome": "basil",
+        "colorazione": "87",
+        "verosomiglianza": "5"
+    },
+    {
+        "file": "img_08.png",
+        "nome": "begonia",
+        "colorazione": "38",
+        "verosomiglianza": "3"
+    },
+    {
+        "file": "img_09.png",
+        "nome": "black locust",
+        "colorazione": "51",
+        "verosomiglianza": "3"
+    },
+    {
+        "file": "img_10.png",
+        "nome": "broom",
+        "colorazione": "26",
+        "verosomiglianza": "2"
+    },
+    {
+        "file": "img_11.png",
+        "nome": "camellia",
+        "colorazione": "47",
+        "verosomiglianza": "2"
+    },
+    {
+        "file": "img_12.png",
+        "nome": "cedar",
+        "colorazione": "21",
+        "verosomiglianza": "5"
+    },
+    {
+        "file": "img_13.png",
+        "nome": "chamomile",
+        "colorazione": "22",
+        "verosomiglianza": "1"
+    },
+    {
+        "file": "img_14.png",
+        "nome": "clematis",
+        "colorazione": "57",
+        "verosomiglianza": "2"
+    },
+    {
+        "file": "img_15.png",
+        "nome": "cornflower",
+        "colorazione": "81",
+        "verosomiglianza": "1"
+    },
+    {
+        "file": "img_16.png",
+        "nome": "currant",
+        "colorazione": "15",
+        "verosomiglianza": "4"
+    },
+    {
+        "file": "img_17.png",
+        "nome": "cyclamen",
+        "colorazione": "71",
+        "verosomiglianza": "3"
+    },
+    {
+        "file": "img_18.png",
+        "nome": "cypress",
+        "colorazione": "98",
+        "verosomiglianza": "5"
+    },
+    {
+        "file": "img_19.png",
+        "nome": "daffodil",
+        "colorazione": "23",
+        "verosomiglianza": "1"
+    },
+    {
+        "file": "img_20.png",
+        "nome": "dahlia",
+        "colorazione": "45",
+        "verosomiglianza": "1"
+    },
+    {
+        "file": "img_21.png",
+        "nome": "daisy",
+        "colorazione": "12",
+        "verosomiglianza": "1"
+    },
+    {
+        "file": "img_22.png",
+        "nome": "daphne",
+        "colorazione": "75",
+        "verosomiglianza": "3"
+    },
+    {
+        "file": "img_23.png",
+        "nome": "elm",
+        "colorazione": "07",
+        "verosomiglianza": "5"
+    },
+    {
+        "file": "img_24.png",
+        "nome": "eucalyptus",
+        "colorazione": "99",
+        "verosomiglianza": "2"
+    },
+    {
+        "file": "img_25.png",
+        "nome": "fennel",
+        "colorazione": "16",
+        "verosomiglianza": "2"
+    },
+    {
+        "file": "img_26.png",
+        "nome": "freesia",
+        "colorazione": "08",
+        "verosomiglianza": "2"
+    },
+    {
+        "file": "img_27.png",
+        "nome": "gardenia",
+        "colorazione": "03",
+        "verosomiglianza": "1"
+    },
+    {
+        "file": "img_28.png",
+        "nome": "gerbera",
+        "colorazione": "69",
+        "verosomiglianza": "1"
+    },
+    {
+        "file": "img_29.png",
+        "nome": "glasswort",
+        "colorazione": "36",
+        "verosomiglianza": "5"
+    },
+    {
+        "file": "img_30.png",
+        "nome": "grape",
+        "colorazione": "86",
+        "verosomiglianza": "5"
+    },
+    {
+        "file": "img_31.png",
+        "nome": "hazel",
+        "colorazione": "49",
+        "verosomiglianza": "5"
+    },
+    {
+        "file": "img_32.png",
+        "nome": "heather",
+        "colorazione": "59",
+        "verosomiglianza": "1"
+    },
+    {
+        "file": "img_33.png",
+        "nome": "hibiscus",
+        "colorazione": "39",
+        "verosomiglianza": "1"
+    },
+    {
+        "file": "img_34.png",
+        "nome": "holly",
+        "colorazione": "13",
+        "verosomiglianza": "5"
+    },
+    {
+        "file": "img_35.png",
+        "nome": "honeysuckle",
+        "colorazione": "09",
+        "verosomiglianza": "2"
+    },
+    {
+        "file": "img_36.png",
+        "nome": "buckeye",
+        "colorazione": "52",
+        "verosomiglianza": "5"
+    },
+    {
+        "file": "img_37.png",
+        "nome": "hydragea",
+        "colorazione": "79",
+        "verosomiglianza": "1"
+    },
+    {
+        "file": "img_38.png",
+        "nome": "iris",
+        "colorazione": "85",
+        "verosomiglianza": "2"
+    },
+    {
+        "file": "img_39.png",
+        "nome": "ivy",
+        "colorazione": "11",
+        "verosomiglianza": "5"
+    },
+    {
+        "file": "img_40.png",
+        "nome": "jasmine",
+        "colorazione": "00",
+        "verosomiglianza": "1"
+    },
+    {
+        "file": "img_41.png",
+        "nome": "lavander",
+        "colorazione": "61",
+        "verosomiglianza": "1"
+    },
+    {
+        "file": "img_42.png",
+        "nome": "lichen",
+        "colorazione": "97",
+        "verosomiglianza": "5"
+    },
+    {
+        "file": "img_43.png",
+        "nome": "lilac",
+        "colorazione": "60",
+        "verosomiglianza": "2"
+    },
+    {
+        "file": "img_44.png",
+        "nome": "lily",
+        "colorazione": "50",
+        "verosomiglianza": "1"
+    },
+    {
+        "file": "img_45.png",
+        "nome": "linden",
+        "colorazione": "19",
+        "verosomiglianza": "2"
+    },
+    {
+        "file": "img_46.png",
+        "nome": "lotus",
+        "colorazione": "05",
+        "verosomiglianza": "3"
+    },
+    {
+        "file": "img_47.png",
+        "nome": "magnolia",
+        "colorazione": "48",
+        "verosomiglianza": "2"
+    },
+    {
+        "file": "img_48.png",
+        "nome": "mallow",
+        "colorazione": "70",
+        "verosomiglianza": "4"
+    },
+    {
+        "file": "img_49.png",
+        "nome": "marigold",
+        "colorazione": "37",
+        "verosomiglianza": "2"
+    },
+    {
+        "file": "img_50.png",
+        "nome": "mimosa",
+        "colorazione": "28",
+        "verosomiglianza": "1"
+    },
+    {
+        "file": "img_51.png",
+        "nome": "mullein",
+        "colorazione": "20",
+        "verosomiglianza": "3"
+    },
+    {
+        "file": "img_52.png",
+        "nome": "myrtle",
+        "colorazione": "94",
+        "verosomiglianza": "3"
+    },
+    {
+        "file": "img_53.png",
+        "nome": "nasturtium",
+        "colorazione": "31",
+        "verosomiglianza": "2"
+    },
+    {
+        "file": "img_54.png",
+        "nome": "oak",
+        "colorazione": "90",
+        "verosomiglianza": "5"
+    },
+    {
+        "file": "img_55.png",
+        "nome": "olander",
+        "colorazione": "95",
+        "verosomiglianza": "3"
+    },
+    {
+        "file": "img_56.png",
+        "nome": "olive",
+        "colorazione": "93",
+        "verosomiglianza": "5"
+    },
+    {
+        "file": "img_57.png",
+        "nome": "orange blossom",
+        "colorazione": "30",
+        "verosomiglianza": "5"
+    },
+    {
+        "file": "img_58.png",
+        "nome": "orchid",
+        "colorazione": "66",
+        "verosomiglianza": "1"
+    },
+    {
+        "file": "img_59.png",
+        "nome": "peony",
+        "colorazione": "41",
+        "verosomiglianza": "1"
+    },
+    {
+        "file": "img_60.png",
+        "nome": "periwinkle",
+        "colorazione": "78",
+        "verosomiglianza": "3"
+    },
+    {
+        "file": "img_61.png",
+        "nome": "persimmon",
+        "colorazione": "35",
+        "verosomiglianza": "5"
+    },
+    {
+        "file": "img_62.png",
+        "nome": "pine",
+        "colorazione": "33",
+        "verosomiglianza": "5"
+    },
+    {
+        "file": "img_63.png",
+        "nome": "pine mugo",
+        "colorazione": "18",
+        "verosomiglianza": "5"
+    },
+    {
+        "file": "img_64.png",
+        "nome": "poplar",
+        "colorazione": "01",
+        "verosomiglianza": "5"
+    },
+    {
+        "file": "img_65.png",
+        "nome": "poppy",
+        "colorazione": "55",
+        "verosomiglianza": "1"
+    },
+    {
+        "file": "img_66.png",
+        "nome": "primrose",
+        "colorazione": "96",
+        "verosomiglianza": "1"
+    },
+    {
+        "file": "img_67.png",
+        "nome": "quinoa",
+        "colorazione": "89",
+        "verosomiglianza": "5"
+    },
+    {
+        "file": "img_68.png",
+        "nome": "ranunculus",
+        "colorazione": "40",
+        "verosomiglianza": "1"
+    },
+    {
+        "file": "img_69.png",
+        "nome": "rose",
+        "colorazione": "42",
+        "verosomiglianza": "1"
+    },
+    {
+        "file": "img_70.png",
+        "nome": "saffron",
+        "colorazione": "67",
+        "verosomiglianza": "4"
+    },
+    {
+        "file": "img_71.png",
+        "nome": "sage",
+        "colorazione": "77",
+        "verosomiglianza": "5"
+    },
+    {
+        "file": "img_72.png",
+        "nome": "st.Johns Worth",
+        "colorazione": "27",
+        "verosomiglianza": "1"
+    },
+    {
+        "file": "img_73.png",
+        "nome": "strawberry",
+        "colorazione": "53",
+        "verosomiglianza": "5"
+    },
+    {
+        "file": "img_74.png",
+        "nome": "sunflower",
+        "colorazione": "29",
+        "verosomiglianza": "1"
+    },
+    {
+        "file": "img_75.png",
+        "nome": "thistle",
+        "colorazione": "63",
+        "verosomiglianza": "3"
+    },
+    {
+        "file": "img_76.png",
+        "nome": "thyme",
+        "colorazione": "76",
+        "verosomiglianza": "1"
+    },
+    {
+        "file": "img_77.png",
+        "nome": "tulip",
+        "colorazione": "43",
+        "verosomiglianza": "1"
+    },
+    {
+        "file": "img_78.png",
+        "nome": "verbena",
+        "colorazione": "64",
+        "verosomiglianza": "2"
+    },
+    {
+        "file": "img_79.png",
+        "nome": "violet",
+        "colorazione": "62",
+        "verosomiglianza": "1"
+    },
+    {
+        "file": "img_80.png",
+        "nome": "walnut",
+        "colorazione": "91",
+        "verosomiglianza": "5"
+    },
+    {
+        "file": "img_81.png",
+        "nome": "willow",
+        "colorazione": "10",
+        "verosomiglianza": "5"
+    },
+    {
+        "file": "img_82.png",
+        "nome": "wisteria",
+        "colorazione": "74",
+        "verosomiglianza": "1"
+    },
+    {
+        "file": "img_83.png",
+        "nome": "yew",
+        "colorazione": "25",
+        "verosomiglianza": "3"
+    },
+    {
+        "file": "img_84.png",
+        "nome": "zelkova",
+        "colorazione": "32",
+        "verosomiglianza": "5"
+    },
+    {
+        "file": "img_85.png",
+        "nome": "zinnia",
+        "colorazione": "56",
+        "verosomiglianza": "2"
+    },
+    {
+        "file": "img_86.png",
+        "nome": "aconite",
+        "colorazione": "83",
+        "verosomiglianza": "5"
+    },
+    {
+        "file": "img_87.png",
+        "nome": "african daisy",
+        "colorazione": "34",
+        "verosomiglianza": "2"
+    },
+    {
+        "file": "img_88.png",
+        "nome": "agapanthus",
+        "colorazione": "82",
+        "verosomiglianza": "1"
+    },
+    {
+        "file": "img_89.png",
+        "nome": "aster",
+        "colorazione": "84",
+        "verosomiglianza": "2"
+    },
+    {
+        "file": "img_90.png",
+        "nome": "bluebell",
+        "colorazione": "80",
+        "verosomiglianza": "2"
+    },
+    {
+        "file": "img_91.png",
+        "nome": "buttercup",
+        "colorazione": "24",
+        "verosomiglianza": "2"
+    },
+    {
+        "file": "img_92.png",
+        "nome": "carnation",
+        "colorazione": "44",
+        "verosomiglianza": "1"
+    },
+    {
+        "file": "img_93.png",
+        "nome": "chrysanths",
+        "colorazione": "46",
+        "verosomiglianza": "3"
+    },
+    {
+        "file": "img_94.png",
+        "nome": "crocus",
+        "colorazione": "65",
+        "verosomiglianza": "3"
+    },
+    {
+        "file": "img_95.png",
+        "nome": "dandelion",
+        "colorazione": "04",
+        "verosomiglianza": "1"
+    },
+    {
+        "file": "img_96.png",
+        "nome": "foxglove",
+        "colorazione": "68",
+        "verosomiglianza": "1"
+    },
+    {
+        "file": "img_97.png",
+        "nome": "narcisus",
+        "colorazione": "06",
+        "verosomiglianza": "2"
+    },
+    {
+        "file": "img_98.png",
+        "nome": "verbascum",
+        "colorazione": "73",
+        "verosomiglianza": "5"
+    },
+    {
+        "file": "img_99.png",
+        "nome": "achillea",
+        "colorazione": "88",
+        "verosomiglianza": "4"
+    }
+]

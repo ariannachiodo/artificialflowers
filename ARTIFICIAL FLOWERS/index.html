@@ -1,0 +1,362 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>artificial flowers</title>
+	<style>
+		@font-face {
+			font-family: "Suisse Int'l Book";
+			src: url("https://db.onlinewebfonts.com/t/17241fb9c2ffb3ec11eba762e771435f.eot");
+			src: url("https://db.onlinewebfonts.com/t/17241fb9c2ffb3ec11eba762e771435f.eot?#iefix") format("embedded-opentype"),
+			url("https://db.onlinewebfonts.com/t/17241fb9c2ffb3ec11eba762e771435f.woff2") format("woff2"),
+			url("https://db.onlinewebfonts.com/t/17241fb9c2ffb3ec11eba762e771435f.woff") format("woff"),
+			url("https://db.onlinewebfonts.com/t/17241fb9c2ffb3ec11eba762e771435f.ttf") format("truetype"),
+			url("https://db.onlinewebfonts.com/t/17241fb9c2ffb3ec11eba762e771435f.svg#Suisse Int'l Book") format("svg");
+		}
+		.active main {
+        margin: 200px 50px;
+    }
+		body {
+			background-image: url('/assets/img/sfondo.png');
+			
+			background-size: 90%; /* Adjust this value to change the size */
+			background-position: center;
+			/*display: flex;*/
+			justify-content: center;
+			align-items: center;
+			height: 80vh;
+			
+			overflow-x: hidden;
+			font-family: "Suisse Int'l Book";
+		}
+
+		.grid {
+        display: grid;
+        grid-template-columns: repeat(10, 170px);
+        grid-template-rows: repeat(10, 170px);
+		column-gap: 5px; /* Reduce space between columns */
+		row-gap: 5px; /* Reduce space between columns */
+		
+        overflow-y: auto; /* Enable vertical scrolling */
+    }
+
+		.grid img {
+			width: 110px;
+			
+		}
+
+	#buttons, #buttons02 {
+        position: fixed;
+        top: 10px;
+        display: flex;
+    }
+    #buttons {
+        right: 20px;
+    }
+    #buttons02 {
+        left: 20px;
+    }
+    #buttons button, #buttons02 button {
+        font-family: "Suisse Int'l Book";
+        font-weight: 500;
+        display: block;
+        padding: 50;
+        color: #9E9E9E;
+        background: none;
+        border: none;
+    }
+    #buttons button.active, #buttons02 button.active {
+        color: black;
+    }
+
+	main {
+        display: flex;
+        overflow-x: auto;
+        margin-left: 50px; /* This will add a 50px gap from the left and right borders */
+		margin-right: 50px;
+		margin-top: 50px;
+		margin-bottom: 0px;
+        height: 100%;
+		width: 100%;
+		align-items: center;
+        
+    }
+
+	main div {
+    font-family: "Suisse Int'l Book";
+    font-size: 11px;
+    margin-right: 35px;
+    margin-left: 15px;
+    color: rgb(23, 23, 23);
+    clear: both; /* Add this property */
+	position: relative;
+	display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+	
+}
+.metadata {
+    position: absolute;
+    bottom: 0;
+    background-color: rgba(255, 255, 255, 0.738); /* Semi-transparent white */
+    width: 50%;
+	
+    display: flex; /* Add this to enable flexbox */
+    justify-content: center; /* Center horizontally */
+    align-items: center; /* Center vertically */
+    
+    text-align: center;
+}
+
+    
+img{
+    width: 300px;
+    right: 50px;
+    left: 50px;
+    background-color: white;
+    display: flex; /* Add this property */
+    margin-bottom: 0px; /* Add this property */
+    margin-right: 20px; /* Add this property */
+}
+
+
+		#flower {
+			position: fixed;
+			bottom: 10px;
+			left: 50.2%;
+			transform: translateX(-50%);
+			font-size: 110px ; 
+			
+		}
+
+		#image-detail {
+			position: fixed;
+			bottom: 60px;
+			
+			right: 20px;
+			font-family: "Suisse Int'l Book";
+			font-size: smaller;
+			font-weight: 10; /* Light */
+			color: #000000;
+		}
+
+		#midjourney {
+			position: fixed;
+			bottom: 60px;
+			left: 20px;
+			font-family: "Suisse Int'l Book";
+			font-size: smaller;
+			font-weight: 300; /* Light */
+			color: #000000;
+		}
+		.dot {
+	width: 5px;
+	height: 5px;
+	background-color: black;
+	border-radius: 50%;
+	position: absolute;
+	
+}
+
+.group {
+	margin-top: 0px; /* Adds a top margin */
+		grid-row: calc(5, 10px);
+		row-gap: 2px; /* Reduce space between columns */
+		align-self: end; /* Aligns the group to the top */
+		font-family: "Suisse Int'l Book";
+		font-size: 9px;
+		font-weight: 300;
+		align-content: center;
+		padding: 50;
+        color: #9E9E9E;
+		left: 530px;
+    }
+		
+	</style>
+</head>
+<body>
+	<div id="buttons">
+		
+		<button onclick="sortByName(this)">Nome</button>
+		<button onclick="sortByColorazione(this)">Colorazione</button>
+		<button onclick="sortByVerosomiglianza(this)">Verosomiglianza</button>
+		<button onclick="showStatistics(this)">Dati</button>
+	</div>
+
+	<div id="buttons02">
+		<button onclick="toggleLayout(this)">Attiva</button>
+
+	</div>
+	<main></main>
+	<div id="flower">Artificial <i>Flowers</i></div>
+	<div id="image-detail">/image  hyper realistic, 35mm, Exquisitely detailed close up</div>
+	<div id="midjourney">midjourney</div>
+	
+	<script>
+		
+let data
+// carica i dati in base al campo
+		async function loadData() {
+			await fetch("./assets/data/flower.json")
+				  .then(function(r) { return r.json() } )
+				  .then( json => {
+					data = json
+				})
+		}
+// ordina i dati in base al campo
+		function sortByName(button) {
+			data.sort(function(a, b) {
+				return a.nome.localeCompare(b.nome)
+			})
+			displayData()
+			updateButton(button)
+		}
+
+		function sortByColorazione(button) {
+			data.sort(function(a, b) {
+				return a.colorazione.localeCompare(b.colorazione)
+			})
+			displayData()
+			updateButton(button)
+		}
+
+		function sortByVerosomiglianza(button) {
+			data.sort(function(a, b) {
+				return a.verosomiglianza - b.verosomiglianza
+			})
+			displayData()
+			updateButton(button)
+		}
+
+		function displayData() {
+			let output = ""
+			for (let i=0; i<data.length; i++) {
+				output +="<div>"
+
+				output += "<img src= './assets/img/immagini/" + data[i].file+"'>"
+				output += "<div>"
+			
+				output += data[i].nome + "<br>"
+				//output += data[i].colorazione + "<br>"
+				//output += data[i].verosomiglianza + "<br>"
+				output += "</div>"
+				output += "</div>"
+			}
+			document.querySelector('main').innerHTML = output
+		}
+// aggiornare l’interfaccia
+		function updateButton(button) {
+			let buttons = document.querySelectorAll('#buttons button');
+			buttons.forEach(btn => btn.classList.remove('active'));
+			button.classList.add('active');
+		}
+		function toggleLayout(button) {
+    let main = document.querySelector('main');
+    if (main.classList.contains('grid')) {
+        main.classList.remove('grid');
+        main.classList.remove('active');
+        button.innerHTML = 'Attiva';
+    } else {
+        main.classList.add('grid');
+        main.classList.add('active');
+        button.innerHTML = 'Disattiva';
+    }
+}
+function displayData() {
+        let output = "";
+        for (let i = 0; i < data.length; i++) {
+            output += "<div>";
+            output += "<img src='./assets/img/immagini/" + data[i].file + "' onmouseover='showMetadata(this)' onmouseout='hideMetadata(this)'>";
+            output += "<div class='metadata' style='display: none;'>";
+            output += data[i].nome + "<br>";
+            //output += data[i].colorazione + "<br>";
+            output += "</div>";
+            output += "</div>";
+        }
+        document.querySelector('main').innerHTML = output;
+    }
+
+    function showMetadata(image) {
+        let metadata = image.nextElementSibling;
+        metadata.style.display = "block";
+    }
+
+    function hideMetadata(image) {
+        let metadata = image.nextElementSibling;
+        metadata.style.display = "none";
+    }
+	function displayData() {
+    let output = "";
+    for (let i = 0; i < data.length; i++) {
+        output += "<div>";
+        output += "<img src='./assets/img/immagini/" + data[i].file + "' onmouseover='showMetadata(this)' onmouseout='hideMetadata(this)'>";
+        output += "<div class='metadata' style='display: none;'>";
+        output += data[i].nome + "<br>";
+        //output += data[i].colorazione + "<br>";
+        output += "</div>";
+        output += "</div>";
+    }
+    document.querySelector('main').innerHTML = output;
+}
+function toggleLayout(button) {
+    let main = document.querySelector('main');
+    if (main.classList.contains('grid')) {
+        main.classList.remove('grid');
+        main.classList.remove('active');
+        button.innerHTML = 'Attiva';
+        hideAllMetadata();
+    } else {
+        main.classList.add('grid');
+        main.classList.add('active');
+        button.innerHTML = 'Disattiva';
+        showAllMetadata();
+    }
+}
+
+function showMetadata(image) {
+    let metadata = image.nextElementSibling;
+    metadata.style.display = "block";
+}
+
+function hideMetadata(image) {
+    let metadata = image.nextElementSibling;
+    metadata.style.display = "none";
+}
+
+function showStatistics(button) {
+    let groups = {};
+
+    
+    for (let i = 0; i < data.length; i++) {
+        let verosomiglianza = data[i].verosomiglianza;
+
+        if (!groups[verosomiglianza]) {
+            groups[verosomiglianza] = [];
+        }
+
+        groups[verosomiglianza].push(data[i]);
+    }
+
+    let output = "";
+    
+    for (let surrealismo in groups) {
+        output += "<div class='group'>";
+        output += "<h2>Surrealismo: " + surrealismo + "</h2>";
+
+        for (let i = 0; i < groups[surrealismo].length; i++) {
+            output += "<img src='./assets/img/immagini/" + groups[surrealismo][i].file + "' style='width: 20px;'>";
+        }
+
+        output += "</div>";
+    }
+
+    document.querySelector('main').innerHTML = output;
+    updateButton(button);
+}
+
+		loadData().then(displayData)
+	</script>
+</body>
+</html>
