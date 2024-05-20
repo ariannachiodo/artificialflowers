@@ -18,11 +18,12 @@
         margin: 200px 50px;
     }
 		body {
-			background-image: url('/assets/img/sfondo.png');
+			background-color:  rgb(0, 0, 0);
+			/* background-image: url('/assets/img/sfondo.png'); */
 			
-			background-size: 90%; /* Adjust this value to change the size */
-			background-position: center;
-			/*display: flex;*/
+			/* background-size: 90%; /* Adjust this value to change the size */
+			/* background-position: center; */
+			display: flex; 
 			justify-content: center;
 			align-items: center;
 			height: 80vh;
@@ -48,7 +49,7 @@
 
 	#buttons, #buttons02 {
         position: fixed;
-        top: 10px;
+        top: 20px;
         display: flex;
     }
     #buttons {
@@ -59,15 +60,15 @@
     }
     #buttons button, #buttons02 button {
         font-family: "Suisse Int'l Book";
-        font-weight: 500;
+    font-size: 1em;
         display: block;
         padding: 50;
-        color: #9E9E9E;
+        color: #ffffff;
         background: none;
         border: none;
     }
     #buttons button.active, #buttons02 button.active {
-        color: black;
+        color: rgb(196, 194, 194);
     }
 
 	main {
@@ -88,7 +89,7 @@
     font-size: 11px;
     margin-right: 35px;
     margin-left: 15px;
-    color: rgb(23, 23, 23);
+    color: rgb(255, 255, 255);
     clear: both; /* Add this property */
 	position: relative;
 	display: flex;
@@ -100,7 +101,7 @@
 .metadata {
     position: absolute;
     bottom: 0;
-    background-color: rgba(255, 255, 255, 0.738); /* Semi-transparent white */
+    background-color: rgba(23, 23, 23, 0.738); /* Semi-transparent white */
     width: 50%;
 	
     display: flex; /* Add this to enable flexbox */
@@ -115,7 +116,7 @@ img{
     width: 300px;
     right: 50px;
     left: 50px;
-    background-color: white;
+    background-color: rgba(23, 23, 23);
     display: flex; /* Add this property */
     margin-bottom: 0px; /* Add this property */
     margin-right: 20px; /* Add this property */
@@ -123,38 +124,40 @@ img{
 
 
 		#flower {
+			color: #ffffff;
 			position: fixed;
 			bottom: 10px;
-			left: 50.2%;
+			left: 230px;
 			transform: translateX(-50%);
-			font-size: 110px ; 
+			font-size: 5em ; 
+			line-height: 90%;
 			
 		}
 
 		#image-detail {
 			position: fixed;
-			bottom: 60px;
+			bottom: 20px;
 			
 			right: 20px;
 			font-family: "Suisse Int'l Book";
-			font-size: smaller;
+			font-size: 1em;
 			font-weight: 10; /* Light */
-			color: #000000;
+			color: #ffffff;
 		}
 
 		#midjourney {
 			position: fixed;
-			bottom: 60px;
-			left: 20px;
+			bottom: 20px;
+			left: 1220px;
 			font-family: "Suisse Int'l Book";
-			font-size: smaller;
+			font-size: 1em;
 			font-weight: 300; /* Light */
-			color: #000000;
+			color: #ffffff;
 		}
 		.dot {
 	width: 5px;
 	height: 5px;
-	background-color: black;
+	background-color: rgb(255, 255, 255);
 	border-radius: 50%;
 	position: absolute;
 	
@@ -182,15 +185,17 @@ img{
 		<button onclick="sortByName(this)">Nome</button>
 		<button onclick="sortByColorazione(this)">Colorazione</button>
 		<button onclick="sortByVerosomiglianza(this)">Verosomiglianza</button>
-		<button onclick="showStatistics(this)">Dati</button>
+		
 	</div>
 
 	<div id="buttons02">
 		<button onclick="toggleLayout(this)">Attiva</button>
+<button onclick="showStatistics(this)">Dati</button>
+		
 
 	</div>
 	<main></main>
-	<div id="flower">Artificial <i>Flowers</i></div>
+	<div id="flower">ARTIFICIAL <br><i>FLOWERS</i></div>
 	<div id="image-detail">/image  hyper realistic, 35mm, Exquisitely detailed close up</div>
 	<div id="midjourney">midjourney</div>
 	
