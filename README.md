@@ -25,7 +25,7 @@ In entrambi i layout, l’utente ha la possibilità di ordinare le immagini seco
 Infine, il pulsante “statistica” apre un grafico a colonne che visualizza l’indice di verosimiglianza di ciascuna immagine. Questo strumento visivo fornisce un modo immediato 
 e intuitivo per quantificare il grado di realismo delle immagini, stimolando ulteriori riflessioni sull’abilità dell’IA nel replicare la bellezza naturale dei fiori.
 
-[<img src="doc/cards.gif" width="500" alt="Magic trick">]()
+
 
 
 ## Tecnologia usata
