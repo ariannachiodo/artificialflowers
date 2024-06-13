@@ -3,7 +3,7 @@ Corso d’interaction design, CV428.01
 Docenti: A. Gysin, G. Profeta  
 
 Elaborato 1: Archivio Digitale XS
-
+https://github.com/ariannachiodo/artificialflowers/doc/funzionamento
 # Artificial *Flowers*
 Autore: Arianna Chiodo
  
