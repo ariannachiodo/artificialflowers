@@ -13,10 +13,9 @@ Autore: Arianna Chiodo
 ## Introduzione e tema
 “Artificial *Flowers*” è un progetto che esplora l’intersezione tra natura e tecnologia, mettendo in luce le potenzialità e i limiti dell’intelligenza artificiale. L’archivio digitale comprende 100 immagini di fiori, tutte generate da un’intelligenza artificiale. Queste immagini sono classificate su una scala da 1 a 5, basata sulla loro somiglianza con i fiori reali, evidenziando così la capacità dell’IA di replicare la bellezza della natura, ma anche i suoi limiti nel catturare la sua complessità. Un aspetto particolarmente affascinante del progetto è come l’IA, quando si trova di fronte a un nome di fiore sconosciuto, cerca di interpretarlo e di creare qualcosa di nuovo, dimostrando la sua capacità di apprendimento e adattamento.
 
-https://github.com/ixd-supsi/2024/raw/main/templates/template_README/doc/sdf_test.mp4
 
 ## Riferimenti progettuali
-Dolor sit amet consectetur adipiscing elit duis tristique. Sociis natoque penatibus et magnis dis parturient montes nascetur. Est sit amet facilisis magna. Tellus rutrum tellus pellentesque eu. Dictum sit amet justo donec enim. Aliquam malesuada bibendum arcu vitae elementum curabitur vitae. Sed faucibus turpis in eu mi bibendum neque egestas congue. Tellus in metus vulputate eu scelerisque felis imperdiet proin. Dolor magna eget est lorem ipsum dolor. Sit amet mattis vulputate enim nulla. Elit pellentesque habitant morbi tristique senectus et. Vestibulum mattis ullamcorper velit sed ullamcorper morbi tincidunt ornare massa.
+Per il mio progetto, ho preso ispirazione da due ambiti principali: l'arte generativa e la fotografia di natura. L'arte generativa, con progetti e artisti che utilizzano l'intelligenza artificiale e altri strumenti digitali per creare opere d'arte, è stata una fonte di grande ispirazione. Lavori pionieristici di artisti come Mario Klingemann e Refik Anadol esplorano il potenziale creativo delle reti neurali e delle tecnologie digitali, offrendo una visione innovativa e dinamica dell'arte contemporanea. 
 
 
 ## Design dell’interfraccia e modalià di interazione
