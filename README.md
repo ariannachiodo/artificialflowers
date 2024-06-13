@@ -25,9 +25,9 @@ In entrambi i layout, l’utente ha la possibilità di ordinare le immagini seco
 Infine, il pulsante “statistica” apre un grafico a colonne che visualizza l’indice di verosimiglianza di ciascuna immagine. Questo strumento visivo fornisce un modo immediato 
 e intuitivo per quantificare il grado di realismo delle immagini, stimolando ulteriori riflessioni sull’abilità dell’IA nel replicare la bellezza naturale dei fiori.
 
-[<img src="docs/img_01.png" width="800">]()
-[<img src="docs/img_02.png" width="800">]()
-[<img src="docs/img_03.png" width="800">]()
+[<img src="docs/Chiodo-Arianna_artificial-flowers_01.png" width="800">]()
+[<img src="docs/Chiodo-Arianna_artificial-flowers_02.png" width="800">]()
+[<img src="docs/Chiodo-Arianna_artificial-flowers_03.png" width="800">]()
 
 
 ## Tecnologia usata
@@ -205,4 +205,4 @@ function showStatistics(button) {
 Il progetto potrebbe essere esposto in una mostra d’arte dedicata all’intelligenza artificiale. In questo contesto, i visitatori avrebbero l’opportunità di esplorare le immagini generate dall’IA, interagire con l’interfaccia utente e riflettere sulle implicazioni dell’IA nel mondo dell’arte e della creatività.
 La mostra non sarebbe solo un’esperienza visiva, ma anche un luogo di discussione e riflessione. Potrebbe stimolare un dialogo sul ruolo dell’IA nella società, sulle sue potenzialità future e sulle sfide che presenta.
 
-[<img src="docs/img_04.jpeg" width="800">]()
+[<img src="docs/Chiodo-Arianna_artificial-flowers_01.jpeg" width="800">]()
