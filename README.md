@@ -205,3 +205,4 @@ function showStatistics(button) {
 Il progetto potrebbe essere esposto in una mostra d’arte dedicata all’intelligenza artificiale. In questo contesto, i visitatori avrebbero l’opportunità di esplorare le immagini generate dall’IA, interagire con l’interfaccia utente e riflettere sulle implicazioni dell’IA nel mondo dell’arte e della creatività.
 La mostra non sarebbe solo un’esperienza visiva, ma anche un luogo di discussione e riflessione. Potrebbe stimolare un dialogo sul ruolo dell’IA nella società, sulle sue potenzialità future e sulle sfide che presenta.
 
+[<img src="docs/img_04.jpg" width="800">]()
