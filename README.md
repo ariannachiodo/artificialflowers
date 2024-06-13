@@ -25,9 +25,9 @@ In entrambi i layout, l’utente ha la possibilità di ordinare le immagini seco
 Infine, il pulsante “statistica” apre un grafico a colonne che visualizza l’indice di verosimiglianza di ciascuna immagine. Questo strumento visivo fornisce un modo immediato 
 e intuitivo per quantificare il grado di realismo delle immagini, stimolando ulteriori riflessioni sull’abilità dell’IA nel replicare la bellezza naturale dei fiori.
 
-[<img src="docs/img_01.png" width="500" alt="mappa delle scelte del gioco detroit become human">]()
-[<img src="docs/img_02.png" width="500" alt="mappa delle scelte del gioco detroit become human">]()
-[<img src="docs/img_03.png" width="500" alt="mappa delle scelte del gioco detroit become human">]()
+[<img src="docs/img_01.png" width="500">]()
+[<img src="docs/img_02.png" width="500">]()
+[<img src="docs/img_03.png" width="500">]()
 
 
 ## Tecnologia usata
